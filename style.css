@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+:root {
+    --orange: #d87d4a;
+    --pink: #fbaf85;
+  }
+  
+  
+  body {
+    font-family: "Manrope", sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    border: 1px solid red;
+    margin: 0 auto;
+  }
+
+  .main_header{
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .containerr {
+    max-width: 1190px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 180px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cards {
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 729px;
+    background-image: url(./assets/home/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 32px;
+  }
+  .navbar_ul {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    list-style: none;
+  }
+  
+  .navbar_ul a {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2px;
+    color: white;
+    transition: 0.5s all;
+  }
+  .navbar_ul   a:hover {
+    opacity: 80%;
+  }
+  a {
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    opacity: 70%;
+  }
+  .navbar a {
+    transition: 0.5s all;
+  }
+  .line {
+    width: 100%;
+    height: 1px;
+    border: solid #434343 1px;
+    opacity: 20px;
+    margin-top: 36px;
+  }
+  .first-info {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.12px;
+    letter-spacing: 10px;
+    color: #898989;
+    margin-top: 128px;
+  }
+  .main__title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 2px;
+    color: white;
+  }
+  .main__desc {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #c4c4c4;
+  }
+  .main-title-mt {
+    margin-top: 24px;
+  }
+  .main-desc-mt {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  .btn {
+    width: 160px;
+    height: 48px;
+    border: none;
+  }
+  
+  .header-card1-btn {
+    background-color: var(--orange);
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.76px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+  button:hover {
+    background-color: #8bc6ec;
+    /* background-image: linear-gradient(135deg, #ffe600 0%, #014c0f 100%); */
+    color: rgb(255, 183, 0);
+    border: solid rgb(38, 37, 37) 3px;
+  }
+  
+  .card2__card1 {
+    width: 350px;
+    height: 204px;
+    border: solid rgb(245, 243, 243) 1px;
+    background-color: #f1f1f1;
+    position: relative;
+  }
+  .card2__card1__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.59px;
+    letter-spacing: 1.2857142686843872px;
+    text-align: center;
+    color: black;
+    margin-top: 116px;
+  }
+  .card2__card1__desc {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.76px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #787878;
+    margin-top: 15px;
+  }
+  .card2__card1__desc span {
+    color: #d87d4a;
+    font-size: 16px;
+    position: relative;
+    margin-left: 5px;
+  }
+  .card2-1img {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .card2 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .shadow{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+/* .card3{ */
+    /* width: 100%;
+    height: 560px;
+    background-image: url(./assets/home/desktop/); */
+/* } */
+
+.zx {
+  width: 1110px;
+  height: 560px;
+  background-color: var(--orange);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.pattern-img {
+  position: absolute;
+  width: 857px;
+  /* height: 560px; */
+  top: 1301px;
+  left: 165px;
+  gap: 0px;
+  opacity: 0px;
+  /* z-index: 1; */
+}
+
+.zx-text-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* .speaker-cart {
+  z-index: -1;
+} */
+
+.h1El {
+  width: 261px;
+  line-height: 60px;
+  color: #fff;
+  font-size: 56px;
+  margin-bottom: 25px;
+}
+
+.pEl {
+  width: 349px;
+  color: #eee;
+  margin-bottom: 25px;
+}
+
+.main_zx7 {
+  background-image: url(./assets/home/desktop/image-speaker-zx7.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 50px;
+}
+
